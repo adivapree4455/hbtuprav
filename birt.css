@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    position: relative;
+    background-image: url("https://media4.giphy.com/media/fQYfaB1wPbUsyNZlad/200w.webp?cid=ecf05e47099xecmn0zn3k4v93fpvljs0pb74hswe267jvshs&ep=v1_gifs_related&rid=200w.webp&ct=g");
+    background-size: cover;
+    background-position: center;
+}
+
+body:hover{
+    background-image: linear-gradient(180deg, pink, orange, pink);
+}
+
+#cartoon-gig img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    border-radius: 50%;
+}
+
+#cartoon-gig1 img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 95%;
+    right: 15%;
+    border-radius: 50%;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page1{
+    height: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    padding-bottom: 5%;
+   
+}
+
+#page1 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    /* position: relative; */
+}
+
+
+
+#page2{
+    height: 55vh;
+    width: 90%;
+    /* background-color: skyblue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 120%;
+    padding-top: 5%;
+    
+    
+}
+
+#page2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    
+}
+
+
+
+/* mediaquery start */
+
+
+@media screen and (min-width: 576px) {
+
+  
+    #cartoon-gig img{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 5%;
+        left: 0;
+        border-radius: 50%;
+    }
+    
+    #cartoon-gig1 img{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        top: 95%;
+        right: 15%;
+        border-radius: 50%;
+    }
+
+    #page1{
+        display: block;
+        flex-direction: column;
+        display: none;
+    
+        
+       
+    }
+    
+    #page1 img{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        display: none;
+        
+    }
+
+    #page2{
+        height: 55vh;
+        width: 90%;
+        /* background-color: skyblue; */
+        display: block;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 120%;
+        padding-top: 5%;
+        
+        
+        
+    }
+    
+    #page2 img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        
+    }
+ 
+
+    
+    
+    
+
+    
+    
+    
+  
+    
+   
+
+    
+}
+
+/* 2nd media query */
+@media screen and (min-width: 1000px){
+
+}
+
+
+
+
+
+
